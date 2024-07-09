@@ -39,7 +39,7 @@ namespace Sugoma
                 Console.WriteLine("BOT Gotowy!");
             };
 
-            await _client.LoginAsync(TokenType.Bot, "OTY3MDI1NDc5Mzg5NDIxNjQ4.YmKSqA.hCQMIEe4VZszcthcZlc4b4TNfrA");
+            await _client.LoginAsync(TokenType.Bot, "##############TOKEN_DISCORD#####################");
             await _client.StartAsync();
 
             await Task.Delay(-1);
